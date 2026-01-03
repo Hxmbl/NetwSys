@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netwsys"
+version = "0.1.0"
+description = "Modular CLI network system toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+netwsys = "netwsys.core.cli:main"
